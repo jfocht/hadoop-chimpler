@@ -7,7 +7,9 @@ Fetch the dependencies
 $ ./scripts/fetch-deps.sh
 
 Ensure that `JAVA_HOME` is set at the system level or set it in
-`hadoop-1.1.2/conf/hadoop-env.sh`.
+`hadoop-1.1.2/conf/hadoop-env.sh` then start the Hadoop cluster.
+
+$ ./scripts/start.sh
 
 ### Movie Lens Recommendations
 
